@@ -1,0 +1,147 @@
+body{
+  margin:0;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+}
+.start{
+  width:90%;
+  margin: auto;
+}
+span{
+  color: black;
+  font-weight: 600;
+}
+p{
+  color: hsl(229, 6%, 66%);
+}
+.supervisor{
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 70%;
+  height: 12.5em;
+  margin: 5% auto;
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+.team-builder{
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 70%;
+  height: 12.5em;
+  margin: 5% auto;
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.karma{
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 70%;
+  height: 12.5em;
+  margin: 5% auto;
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.calculator{
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 70%;
+  height: 12.5em;
+  margin: 5% auto;
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+.cards h3{
+  text-align: left;
+  margin-left: 5%;
+}
+.cards p{
+  text-align: left;
+  margin-left: 5%;
+}
+.cards img{
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  text-align: right;
+  width: 10%;
+}
+/* screen > 600px*/
+@media screen and (min-width: 800px){
+body{
+  margin:0;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+}
+.start{
+  width:45%;
+  margin: auto;
+}
+span{
+  color: black;
+  font-weight: 600;
+
+}
+p{
+  color: hsl(229, 6%, 66%);
+}
+.cards{
+  position: relative;
+}
+.supervisor{
+  position: absolute;
+  left: 10%;
+  top:30%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 25%;
+  height: 12.5em;
+  margin: auto;
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+.team-builder{
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 25%;
+  height: 12.5em;
+  margin: 2% auto;
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.karma{
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 25%;
+  height: 12.5em;
+  margin: auto;
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.calculator{
+  position: absolute;
+  right: 10%;
+  top: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 25%;
+  height: 12.5em;
+  margin: auto;
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+.cards h3{
+  text-align: left;
+  margin-left: 5%;
+}
+.cards p{
+  text-align: left;
+  margin-left: 5%;
+}
+.cards img{
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  text-align: right;
+  width: 10%;
+}
+}
